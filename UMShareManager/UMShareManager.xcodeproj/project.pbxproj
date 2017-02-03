@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6BEEFF56F9600193A904922 /* libPods-UMShareManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F481B817B4002A5F0735A3 /* libPods-UMShareManager.a */; };
 		E52ADCFB1E44282F0061FC01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E52ADCFA1E44282F0061FC01 /* main.m */; };
 		E52ADCFE1E44282F0061FC01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E52ADCFD1E44282F0061FC01 /* AppDelegate.m */; };
 		E52ADD011E44282F0061FC01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52ADD001E44282F0061FC01 /* ViewController.m */; };
@@ -14,9 +15,19 @@
 		E52ADD071E44282F0061FC01 /* UMShareManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E52ADD051E44282F0061FC01 /* UMShareManager.xcdatamodeld */; };
 		E52ADD091E44282F0061FC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52ADD081E44282F0061FC01 /* Assets.xcassets */; };
 		E52ADD0C1E44282F0061FC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52ADD0A1E44282F0061FC01 /* LaunchScreen.storyboard */; };
+		E52ADD4F1E442D0B0061FC01 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD4E1E442D0B0061FC01 /* libsqlite3.tbd */; };
+		E52ADD511E442D1B0061FC01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD501E442D1B0061FC01 /* CoreGraphics.framework */; };
+		E52ADD531E442D360061FC01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD521E442D360061FC01 /* SystemConfiguration.framework */; };
+		E52ADD551E442D3D0061FC01 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD541E442D3D0061FC01 /* CoreTelephony.framework */; };
+		E52ADD571E442D4D0061FC01 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD561E442D4D0061FC01 /* libc++.tbd */; };
+		E52ADD591E442D560061FC01 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD581E442D560061FC01 /* libz.tbd */; };
+		E52ADD5B1E442D650061FC01 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD5A1E442D650061FC01 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01DC0512DC6FDBAD7EAB10CA /* Pods-UMShareManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMShareManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMShareManager/Pods-UMShareManager.release.xcconfig"; sourceTree = "<group>"; };
+		B6F481B817B4002A5F0735A3 /* libPods-UMShareManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UMShareManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AD5368AD44E21C943D7239 /* Pods-UMShareManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMShareManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMShareManager/Pods-UMShareManager.debug.xcconfig"; sourceTree = "<group>"; };
 		E52ADCF61E44282F0061FC01 /* UMShareManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMShareManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52ADCFA1E44282F0061FC01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E52ADCFC1E44282F0061FC01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +39,13 @@
 		E52ADD081E44282F0061FC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52ADD0B1E44282F0061FC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E52ADD0D1E44282F0061FC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52ADD4E1E442D0B0061FC01 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E52ADD501E442D1B0061FC01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E52ADD521E442D360061FC01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E52ADD541E442D3D0061FC01 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E52ADD561E442D4D0061FC01 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E52ADD581E442D560061FC01 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E52ADD5A1E442D650061FC01 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +53,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52ADD5B1E442D650061FC01 /* ImageIO.framework in Frameworks */,
+				E52ADD591E442D560061FC01 /* libz.tbd in Frameworks */,
+				E52ADD571E442D4D0061FC01 /* libc++.tbd in Frameworks */,
+				E52ADD4F1E442D0B0061FC01 /* libsqlite3.tbd in Frameworks */,
+				E52ADD551E442D3D0061FC01 /* CoreTelephony.framework in Frameworks */,
+				E52ADD531E442D360061FC01 /* SystemConfiguration.framework in Frameworks */,
+				E52ADD511E442D1B0061FC01 /* CoreGraphics.framework in Frameworks */,
+				C6BEEFF56F9600193A904922 /* libPods-UMShareManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DC779C3AD1CFE1E25183C2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD5368AD44E21C943D7239 /* Pods-UMShareManager.debug.xcconfig */,
+				01DC0512DC6FDBAD7EAB10CA /* Pods-UMShareManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E52ADCED1E44282F0061FC01 = {
 			isa = PBXGroup;
 			children = (
 				E52ADCF81E44282F0061FC01 /* UMShareManager */,
 				E52ADCF71E44282F0061FC01 /* Products */,
+				E52ADD4D1E442D0B0061FC01 /* Frameworks */,
+				7DC779C3AD1CFE1E25183C2B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +119,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E52ADD4D1E442D0B0061FC01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E52ADD5A1E442D650061FC01 /* ImageIO.framework */,
+				E52ADD581E442D560061FC01 /* libz.tbd */,
+				E52ADD561E442D4D0061FC01 /* libc++.tbd */,
+				E52ADD541E442D3D0061FC01 /* CoreTelephony.framework */,
+				E52ADD521E442D360061FC01 /* SystemConfiguration.framework */,
+				E52ADD501E442D1B0061FC01 /* CoreGraphics.framework */,
+				E52ADD4E1E442D0B0061FC01 /* libsqlite3.tbd */,
+				B6F481B817B4002A5F0735A3 /* libPods-UMShareManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E52ADD101E44282F0061FC01 /* Build configuration list for PBXNativeTarget "UMShareManager" */;
 			buildPhases = (
+				11ADEAC1DD98BEB753687CD1 /* [CP] Check Pods Manifest.lock */,
 				E52ADCF21E44282F0061FC01 /* Sources */,
 				E52ADCF31E44282F0061FC01 /* Frameworks */,
 				E52ADCF41E44282F0061FC01 /* Resources */,
+				4A80285A66811383E2836C85 /* [CP] Embed Pods Frameworks */,
+				420B1134580B8B748584E16C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +203,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11ADEAC1DD98BEB753687CD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		420B1134580B8B748584E16C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMShareManager/Pods-UMShareManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A80285A66811383E2836C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMShareManager/Pods-UMShareManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E52ADCF21E44282F0061FC01 /* Sources */ = {
@@ -273,11 +376,25 @@
 		};
 		E52ADD111E44282F0061FC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AD5368AD44E21C943D7239 /* Pods-UMShareManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9F274Z2PYA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/UMSocialUI",
+				);
 				INFOPLIST_FILE = UMShareManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/WeChat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = andianxiao.UMShareManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -285,11 +402,25 @@
 		};
 		E52ADD121E44282F0061FC01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DC0512DC6FDBAD7EAB10CA /* Pods-UMShareManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9F274Z2PYA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/UMSocialUI",
+				);
 				INFOPLIST_FILE = UMShareManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/WeChat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = andianxiao.UMShareManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -314,6 +445,7 @@
 				E52ADD121E44282F0061FC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
