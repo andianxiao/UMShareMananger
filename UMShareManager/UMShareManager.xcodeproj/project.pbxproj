@@ -22,6 +22,8 @@
 		E52ADD571E442D4D0061FC01 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD561E442D4D0061FC01 /* libc++.tbd */; };
 		E52ADD591E442D560061FC01 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD581E442D560061FC01 /* libz.tbd */; };
 		E52ADD5B1E442D650061FC01 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52ADD5A1E442D650061FC01 /* ImageIO.framework */; };
+		E52ADD611E4448F70061FC01 /* AppDelegate+Share.m in Sources */ = {isa = PBXBuildFile; fileRef = E52ADD601E4448F70061FC01 /* AppDelegate+Share.m */; };
+		E52ADD641E44498D0061FC01 /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E52ADD631E44498D0061FC01 /* ShareManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		E52ADD561E442D4D0061FC01 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		E52ADD581E442D560061FC01 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E52ADD5A1E442D650061FC01 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E52ADD5F1E4448F70061FC01 /* AppDelegate+Share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Share.h"; sourceTree = "<group>"; };
+		E52ADD601E4448F70061FC01 /* AppDelegate+Share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Share.m"; sourceTree = "<group>"; };
+		E52ADD621E44498D0061FC01 /* ShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		E52ADD631E44498D0061FC01 /* ShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,10 @@
 			children = (
 				E52ADCFC1E44282F0061FC01 /* AppDelegate.h */,
 				E52ADCFD1E44282F0061FC01 /* AppDelegate.m */,
+				E52ADD5F1E4448F70061FC01 /* AppDelegate+Share.h */,
+				E52ADD601E4448F70061FC01 /* AppDelegate+Share.m */,
+				E52ADD621E44498D0061FC01 /* ShareManager.h */,
+				E52ADD631E44498D0061FC01 /* ShareManager.m */,
 				E52ADCFF1E44282F0061FC01 /* ViewController.h */,
 				E52ADD001E44282F0061FC01 /* ViewController.m */,
 				E52ADD021E44282F0061FC01 /* Main.storyboard */,
@@ -258,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52ADD011E44282F0061FC01 /* ViewController.m in Sources */,
+				E52ADD641E44498D0061FC01 /* ShareManager.m in Sources */,
+				E52ADD611E4448F70061FC01 /* AppDelegate+Share.m in Sources */,
 				E52ADCFE1E44282F0061FC01 /* AppDelegate.m in Sources */,
 				E52ADCFB1E44282F0061FC01 /* main.m in Sources */,
 				E52ADD071E44282F0061FC01 /* UMShareManager.xcdatamodeld in Sources */,
@@ -394,7 +406,10 @@
 					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/WeChat",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = andianxiao.UMShareManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,7 +435,10 @@
 					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/UMShareManager/UMSocial/SocialLibraries/WeChat",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = andianxiao.UMShareManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

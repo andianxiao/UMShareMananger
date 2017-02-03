@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ShareManager.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton new];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(share) forControlEvents:UIControlEventTouchUpInside];
+
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)share{
+    [[ShareManager sharedManager]shareWithSharedType:ShareTypeWeibo image:nil url:@"" content:@"12345" controller:self];
 }
 
 
